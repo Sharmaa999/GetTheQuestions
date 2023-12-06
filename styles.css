@@ -1,0 +1,144 @@
+﻿/* styles.css */
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a basic font style */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: #eee;
+    padding: 10px;
+}
+
+    nav a {
+        text-decoration: none;
+        color: #333;
+        margin-right: 10px;
+    }
+
+/* Style buttons */
+button, input[type="submit"], input[type="reset"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the main content area */
+main {
+    padding: 20px;
+}
+
+/* Style labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style form inputs */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Style error messages */
+.error {
+    color: red;
+}
+
+/* Style footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Add these styles to your existing CSS file */
+
+/* Style tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style buttons with hover effect */
+button:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+/* Style links */
+a {
+    color: #007BFF;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Style header */
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style footer */
+footer {
+    margin-top: 20px;
+}
+
+/* Responsive layout for smaller screens */
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
+
+
+/* Your existing styles go here */
+
+#lblQuestions {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.question {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
